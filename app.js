@@ -143,7 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (currentRotation === current.length) { // if current roation gets to 4, make it go back to 0
       currentRotation = 0
     }
-    console.log(random)
     current = theTetro[random][currentRotation]
     draw()
   }
